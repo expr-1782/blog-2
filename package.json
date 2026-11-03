@@ -25,10 +25,11 @@
     "test": "npm run lint:js && npm run lint:scss",
     "prepare": "husky"
     "sass":
-sass:
-  style: compressed
-  load_paths:
-    - node_modules
+  }
+"sass":
+  "style": compressed
+  "load_paths":
+    - "node_modules"
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8"
